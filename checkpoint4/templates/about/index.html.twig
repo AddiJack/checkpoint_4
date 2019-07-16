@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}About Us{% endblock %}
+
+{% block body %}
+    <div class="container">
+        {% for propos in about %}
+            <div class="row ">
+                <div class="col-12 mt-3 d-flex justify-content-center">
+                        <h1>{{ propos.title }}</h1>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                    <p class="mt-5 mb-5">{{ propos.text }}</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+                    <img class="d-flex justify-content-center" src="/images/{{ propos.image }}" alt="image">
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
