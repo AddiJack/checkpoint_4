@@ -1,0 +1,20 @@
+@import "vars";
+
+.btn{
+  background: $green;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.open .dropdown-toggle.btn {
+  color: #fff;
+  background-color: $kaki;
+  border-color: $green;
+}
