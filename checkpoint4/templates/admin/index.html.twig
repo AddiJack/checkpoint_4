@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Admin{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <h1>Espace Administrateur</h1>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-6">
+            <a href= "{{ path ('about_index') }}">
+                <button type="button" class="btn btn-sm text-dark border btn-block text-uppercase">About</button>
+            </a>
+        </div>
+        <div class="col-6">
+            <button type="button" class="btn btn-sm text-dark border btn-block text-uppercase">Performance</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <button type="button" class="btn btn-sm text-dark border btn-block text-uppercase">Price</button>
+        </div>
+        <div class="col-6">
+            <button type="button" class="btn btn-sm text-dark border btn-block text-uppercase">Contact</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
