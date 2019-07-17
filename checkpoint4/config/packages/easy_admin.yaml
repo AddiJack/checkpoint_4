@@ -1,8 +1,21 @@
 easy_admin:
+    design:
+        brand_color: '#8ab76f'
+
     entities:
         # List the entity class name you want to manage
         - App\Entity\About
         - App\Entity\Performance
         - App\Entity\Prices
         - App\Entity\Contact
+
+# config/packages/easy_admin.yaml
+    site_name: 'Wild <em style="font-size: 80%;">Circus</em>'
+
+    user:
+        # this method/property must return the string representation of the user
+        # (Symfony will look for getFullName(), isFullName(), ..., and 'fullName' property)
+        display_name: true
+        display_avatar: false
+        name_property_path: 'fullName'
 
