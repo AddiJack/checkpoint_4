@@ -110,6 +110,9 @@
       <path value="$PROJECT_DIR$/checkpoint4/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/checkpoint4/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/checkpoint4/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/checkpoint4/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/checkpoint4/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/checkpoint4/vendor/twig/extensions" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
