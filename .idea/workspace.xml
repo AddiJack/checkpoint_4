@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b0d15fd-3eb6-4319-b529-2a8f1283e98f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PriceFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/UserFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkpoint_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkpoint_4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/AboutFixtures.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoint4/templates/about/about.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint4/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint4/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint4/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpoint4/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/src/Security/AdminAuthenticator.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/src/Security/UserAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/src/Security/UserAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,89 +26,94 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Security/AdminAuthenticator.php">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/AboutFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/User.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-582" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/SecurityController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/UserFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#36#56#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding>
                 <element signature="e#36#63#0#PHP" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/Prices.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PriceFixtures.php">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
-              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
-              <folding>
-                <element signature="e#36#63#0#PHP" expanded="true" />
-              </folding>
+              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/Performance.php">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="135">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/AppFixtures.php">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#36#79#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/_form.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/admin/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/accueil/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/about.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -127,10 +133,7 @@
         <option value="$PROJECT_DIR$/checkpoint4/.env.local" />
         <option value="$PROJECT_DIR$/checkpoint4/src/Controller/PerformanceController.php" />
         <option value="$PROJECT_DIR$/checkpoint4/assets/scss/perf.scss" />
-        <option value="$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig" />
-        <option value="$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php" />
         <option value="$PROJECT_DIR$/checkpoint4/assets/scss/about.scss" />
-        <option value="$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig" />
         <option value="$PROJECT_DIR$/checkpoint4/templates/contact/index.html.twig" />
         <option value="$PROJECT_DIR$/checkpoint4/src/Kernel.php" />
         <option value="$PROJECT_DIR$/checkpoint4/src/Controller/ContactController.php" />
@@ -148,8 +151,20 @@
         <option value="$PROJECT_DIR$/checkpoint4/src/Controller/PriceController.php" />
         <option value="$PROJECT_DIR$/checkpoint4/templates/price/index.html.twig" />
         <option value="$PROJECT_DIR$/checkpoint4/src/DataFixtures/UserFixtures.php" />
-        <option value="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php" />
         <option value="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PriceFixtures.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/checkpoint4/src/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/src/Security/UserAuthenticator.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/src/DataFixtures/AboutFixtures.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/about/about.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/about/show.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/about/edit.html.twig" />
+        <option value="$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig" />
       </list>
     </option>
   </component>
@@ -312,19 +327,6 @@
               <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
               <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -339,48 +341,41 @@
               <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
               <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
-              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Security" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
               <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="about" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="accueil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="checkpoint_4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="checkpoint_4" type="462c0819:PsiDirectoryNode" />
+              <item name="checkpoint4" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -432,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15808000" />
+    <option name="totallyTimeSpent" value="19284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -463,23 +458,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/checkpoint4/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AccueilController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/env.local" />
     <entry file="file://$PROJECT_DIR$/checkpoint4/.env.local">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,9 +465,6 @@
           <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/About.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/PerformanceController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -505,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -596,13 +564,6 @@
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/Contact.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/contact/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/templates/base_notifications.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -631,23 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/accueil/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#34#55#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/PriceController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -655,13 +599,6 @@
           <folding>
             <element signature="e#34#56#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -679,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Security/AdminAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-582" />
@@ -695,16 +624,6 @@
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/AppFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#36#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/Performance.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -712,20 +631,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/UserFixtures.php">
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Security/AdminAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
+            <element signature="e#32#53#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php">
+    <entry file="file://$PROJECT_DIR$/checkpoint4/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Security/UserAuthenticator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="91" column="36" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PriceFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding>
             <element signature="e#36#63#0#PHP" expanded="true" />
           </folding>
@@ -737,13 +673,147 @@
         <state relative-caret-position="-141" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PriceFixtures.php">
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
+        <state relative-caret-position="462">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Entity/About.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/performance/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/About2Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/contact/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/PerformanceFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#36#63#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/UserFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/AppFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#36#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/DataFixtures/AboutFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#36#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about2/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AboutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/accueil/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/src/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/checkpoint4/templates/about/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
         </state>
       </provider>
     </entry>

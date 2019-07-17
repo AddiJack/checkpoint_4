@@ -1,22 +1,55 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}About Us{% endblock %}
+{% block title %}About index{% endblock %}
 
 {% block body %}
     <div class="container">
-        {% for propos in about %}
-            <div class="row ">
-                <div class="col-12 mt-3 d-flex justify-content-center">
-                        <h1>{{ propos.title }}</h1>
-                </div>
+    <h1>About index</h1>
+
+    <table class="table mt-5">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Title</th>
+                <th>Text</th>
+                <th>Image</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for about in abouts %}
+            <tr>
+                <td>{{ about.id }}</td>
+                <td>{{ about.title }}</td>
+                <td>{{ about.text }}</td>
+                <td>{{ about.image }}</td>
+                <td>
+                    <a href="{{ path('about_show', {'id': about.id}) }}">show</a>
+                    <a href="{{ path('about_edit', {'id': about.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+                <a href="{{ path('admin_index') }}">
+                    <button class="btn">Retour</button>
+                </a>
             </div>
-            <div class="row d-flex justify-content-center">
-                    <p class="mt-5 mb-5">{{ propos.text }}</p>
-            </div>
-            <div class="row d-flex justify-content-center">
-                    <img class="d-flex justify-content-center" src="/images/{{ propos.image }}" alt="image">
+            <div class="col-6 d-flex justify-content-end">
+                <a href="{{ path('about_new') }}">
+                    <button class="btn">Create new</button>
+                </a>
             </div>
         </div>
-        {% endfor %}
     </div>
 {% endblock %}

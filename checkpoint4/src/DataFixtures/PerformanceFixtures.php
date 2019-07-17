@@ -24,7 +24,7 @@ class PerformanceFixtures extends Fixture
         $performance = new Performance();
         $performance->setTitle('Dream');
         $performance->setTexte('Let yourself be carried away in a world where the real and the imaginary are one, in the company of our talented magicians, discover a wonderful world limited only by your imagination.');
-        $performance->setImage('lapin.jpg');
+        $performance->setImage('lapin.png');
         $manager->persist($performance);
         $manager->flush();
 

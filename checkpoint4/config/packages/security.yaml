@@ -1,7 +1,5 @@
 security:
     encoders:
-        App\Entity\Admin:
-            algorithm: auto
         App\Entity\User:
             algorithm: auto
 
@@ -22,9 +20,8 @@ security:
             anonymous: true
             guard:
                 authenticators:
-                    - App\Security\AdminAuthenticator
                     - App\Security\UserAuthenticator
-                entry_point: App\Security\AdminAuthenticator
+                entry_point: App\Security\UserAuthenticator
             logout:
                 path: app_logout
                 # where to redirect after logout
